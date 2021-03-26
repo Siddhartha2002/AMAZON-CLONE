@@ -1,0 +1,101 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.login > hr {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.login > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #f5f6f8;
+  border-radius: 16px;
+  text-transform: inherit;
+  padding: 7.7px;
+  background-color: #e2e5eb;
+  color: #111;
+  margin: auto;
+  width: 60vh;
+  line-height: 29px;
+  transition: all 100ms ease-in-out;
+}
+
+.login__container {
+  width: 330px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > p {
+  margin-left: 10px;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 4px;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #e8f0fe;
+  width: 98%;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  outline-width: 0;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.login__container > form > input[type="email"]:focus {
+  box-shadow: 0 0 5px #e77600;
+  border: 1px solid #e77600;
+}
+.login__container > form > input[type="password"]:focus {
+  box-shadow: 0 0 5px #e77600;
+  border: 1px solid #e77600;
+}
+
+.login__container > form > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 16px;
+  text-transform: inherit;
+  padding: 7.7px;
+  width: 57.5vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f7ca00;
+  color: #111;
+  transition: all 100ms ease-in-out;
+}
+
+.login__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
